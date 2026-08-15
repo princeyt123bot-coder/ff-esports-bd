@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921302109452",
+    "project_id": "ff-tour-bd-73fca",
+    "storage_bucket": "ff-tour-bd-73fca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921302109452:android:9e9a353ccb8195a85b0d29",
+        "android_client_info": {
+          "package_name": "com.prince.ff_esports_bd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAunLVPC4iZ2bmmdGISsw4hEHHiMLptvaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
