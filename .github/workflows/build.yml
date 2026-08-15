@@ -15,15 +15,12 @@ jobs:
         with:
           flutter-version: '3.x'
 
-      - name: Install Dependencies
-        run: flutter pub get
-        working-directory: ff-esports-bd
+      - run: flutter pub get
 
-      - name: Build APK
-        run: flutter build apk --split-per-abi
-        working-directory: ff-esports-bd
+      - run: flutter build apk --split-per-abi
 
       - uses: actions/upload-artifact@v4
         with:
           name: release-apk
           path: '**/build/app/outputs/flutter-apk/*.apk'
+          
